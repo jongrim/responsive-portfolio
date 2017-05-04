@@ -1,0 +1,203 @@
+html, body {
+    font-family: 'Helvetica Neue', 'Arial', Helvetica, sans-serif;
+    background: url(../images/topography.png) repeat top left;
+    color: #777777;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-weight: 200;
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: #ffffff;
+    background: #4aaaa5;
+    font-size: 2rem;
+    margin: 0;
+    padding: 15px;
+    font-weight: 200;
+}
+
+.navbar-item a:hover, .container a:hover, a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background: url(../images/tweed.png) repeat top left;
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.navcontainer {
+    display: inline-block;
+    text-align: center;
+    width: 100vw;
+}
+
+.navbar-item {
+    display: inline-block;
+}
+
+.navbar-item a, footer a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+
+.navcontainer.left{
+    width: 65%;
+    max-width: 650px;
+    margin: 0 1% 0 -1%;
+    display: inline-block;
+    text-align: left;
+}
+
+.navcontainer.right {
+    width: 26%;
+    max-width: 270px;
+    margin: 0 0 0 1%;
+    display: inline-block;
+    text-align: right;
+}
+
+.container {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 44px;
+}
+
+.content {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    width: 65%;
+    display: inline-block;
+    margin: 0 1% 0 0;
+    max-width: 650px;
+    padding: .5rem;
+}
+
+.content h1 {
+    background: #ffffff;
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+    margin: 0 5px 5px 5px;
+    display: block;
+    text-align: left;
+}
+
+.content a {
+    color: #4aaaa5;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.text {
+    text-align: justify;
+}
+
+.sidebar {
+    width: 26%;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 1%;
+    max-width: 270px;
+}
+
+.sidebar h2 {
+    color: #4aaaa5;
+    border-bottom: 1px solid #dddddd;
+    margin: 0 5px 5px 5px;
+    font-weight: 200;
+}
+
+.headshot {
+    width: 15%;
+    height: auto;
+    float: left;
+    margin: 0.9rem .5rem 0 0;
+    border-radius: 15%;
+}
+
+footer {
+    background: url(../images/tweed.png) repeat top left;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    height: 25px;
+    margin-top: -25px;
+}
+
+footer > p {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.social-img {
+    width: 25%;
+    height: auto;
+    padding: 0 3%;
+}
+
+.project-tile {
+    width: 40%;
+    margin: 0 2.5% 2rem 2.5%;
+    display: inline-block;
+    text-align: center;
+}
+
+.project-tile > img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: -95px;
+}
+
+.project-header {
+    color: #ffffff;
+    background: #4aaaa5;
+    font-size: 2rem;
+    margin: 0;
+    padding: 15px;
+    font-weight: 200;
+    opacity: 0.90;
+}
+
+input, label, textarea {
+    display: block;
+    text-align: left;
+    width: 97%;
+    margin: 0.5rem 0 .5rem 0.5rem;
+}
+
+input[type="submit"] {
+    width: auto;
+    background: #4aaaa5;
+    font-size: 1.2rem;
+    color: #ffffff;
+    border: none;
+    box-shadow: none;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+input[type="submit"]:active {
+    transform: translateY(3px);
+}
+
+input, textarea {
+    border: 1px solid #dddddd;
+    color: #777777;
+}
