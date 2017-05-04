@@ -166,7 +166,7 @@ footer > p {
 .project-header {
     color: #ffffff;
     background: #4aaaa5;
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 0;
     padding: 15px;
     font-weight: 200;
@@ -200,4 +200,83 @@ input[type="submit"]:active {
 input, textarea {
     border: 1px solid #dddddd;
     color: #777777;
+}
+
+@media screen and (max-width: 640px) {
+    .navcontainer.left > .navbar-item {
+        width: 100%;
+    }
+
+    .navcontainer.left, .navcontainer.right {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+        margin: 0 0 8px 0;
+    }
+
+    .content h1 {
+        text-align: center;
+    }
+
+    .headshot {
+        float: none;
+        width: 50%;
+    }
+    
+    .content, .sidebar {
+        display: block;
+        margin: 0 2% 1rem 2%;
+        max-width: none;
+        width: initial;
+    }
+    
+    .social-img {
+        width: 20%;
+    }
+
+    .project-tile {
+        display: block;
+        width: 60%;
+        margin: 0 auto 36px auto;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .content, .sidebar {
+        display: block;
+        margin: 0 2% 1rem 2%;
+        max-width: none;
+        width: initial;
+    }
+
+    .navcontainer.left, .navcontainer.right {
+        width: 48%;
+        max-width: 48%;
+        margin: 0;
+    }
+
+    .social-img {
+        width: 15%;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    .navcontainer.left {
+        width: 59%;
+    }
+
+    .navcontainer.right {
+        width: 33%;
+    }
+
+    .headshot {
+        float: none;
+        width: 25%;
+    }
+
+    .sidebar h2 {
+        font-size: 24px;
+    }
+
 }
