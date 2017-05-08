@@ -256,18 +256,16 @@ input, textarea {
     }
 
     .social-img {
-        width: 15%;
+        width: 12%;
     }
 
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
-    .navcontainer.left {
-        width: 59%;
-    }
-
-    .navcontainer.right {
-        width: 33%;
+    .navcontainer.left, .navcontainer.right {
+        width: 48%;
+        max-width: 48%;
+        margin: 0;
     }
 
     .headshot {
